@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --red: #F55A5A;
+    --light-grey: #918E9B;
+    --dark-grey: #2B283A;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-family: "Inter";
+    font-size: 10.24px;
+    color: var(--dark-grey);
+    background-position: center;
+}
+
+.app--container {
+    width: 550px;
+    height: 704px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px rgba(0,0,0,0.1);
+}
+
+.navbar--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red);
+    margin-bottom: 35px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.navbar--title {
+    color: white;
+    font-weight: 500;
+    font-size: 14.5px;
+    margin-left: 3px;
+    padding: 6px;
+    letter-spacing: -0.9px;
+}
+
+.card--container,
+.card--location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card--container {
+    padding: 10px 36px 10px 36px;
+}
+
+.card--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card--info_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+
+.card--location_name {
+    margin-left: 2.5px;
+    letter-spacing: 1px;
+}
+
+.card--location_link {
+    margin-left: 12px;
+    color: var(--light-grey);
+}
+
+.card--location_icon {
+    width: auto;
+    height: 9.55px;
+}
+
+.card--title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 4px;
+}
+
+.card--date {
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+
+.card--separator {
+    background-color: var(--light-grey);
+    width: 87%;
+    opacity: 0.1;
+    height: 0.6px;
+    border: none;
+}
